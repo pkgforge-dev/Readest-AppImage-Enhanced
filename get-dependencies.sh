@@ -6,9 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    gtk3    \
-    readest
+pacman -Syu --noconfirm readest
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
