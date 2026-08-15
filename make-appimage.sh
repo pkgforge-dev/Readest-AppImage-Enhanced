@@ -17,8 +17,6 @@ export GTK_DIR=gtk-3.0
 # Deploy dependencies
 quick-sharun /usr/bin/readest
 
-# Additional changes can be done in between here
-
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
 
